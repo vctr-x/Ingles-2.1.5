@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mostrar Niveles</title>
+    <link REL=StyleSheet HREF="EstilosMostrarNivel.css" TYPE="text/css" MEDIA=screen>
+
+</head>
+<body>
+
+    <div class="header">
+       <h1>Aprende Inglés</h1>
+
+        <!-- Footer -->
+       <footer id="footer" class="section">
+
+           <div class="col-md-4">
+               <ul class="footer-nav ">
+                   <li><a class="colorletra" href="index.html">Inicio</a></li>
+                   <li><a class="colorletra" href="#">Iniciar Sesión</a></li>
+                   <li><a class="colorletra" href="#">Registrarse</a></li>
+                   <li><a class="colorletra" href="blog.html">Foro</a></li>
+
+               </ul>
+           </div>
+           <!-- container -->
+           <div class="container">
+
+               <!-- row -->
+               <div class="row">
+
+                   <!-- footer logo -->
+                   <div class="col-3 col-md-pull-4" >
+                       <div class="footer-logo">
+                           <a class="logo" href="index.html">
+                               <img src="./img/logo.png" alt="logo">
+                           </a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- footer logo -->
+           <!-- footer nav -->
+            <!-- /footer nav -->
+           <!-- /row -->
+           <!-- row -->
+           <!-- row -->
+           <!-- /container -->
+
+       </footer>
+    </div>
+
+    
+
+    <div class="row">
+        <div class=" menu centro">
+            <div class="centro">
+                <h1>Choose your level </h1>
+                <p>Elige tu nivel </p>
+            </div>
+
+           
+
+            <nav>
+                <div>
+                    <div class="Imagen1"> <img src="./Imagenes/Basico.jpg" alt="" 
+                     width="200" height="200" /></div>
+                    <ul>
+                        <li><a class="Niveles" href="Básico.html">Básico </a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="Imagen"><img src="./Imagenes/Intermedio.jpg" alt=""
+                     width="200" height="200" /></div>
+                        <ul>
+                            <li><a class="Niveles" href="Intermedio.html">Intermedio</a></li>
+                        </ul>
+                    </div>
+
+                <div>
+                    <div class="Imagen"><img src="./Imagenes/Avanzado.jpg" alt=""
+                    width="200" height="200" /></div>
+                    <ul>
+                        <li> <a class="Niveles" href="Avanzado.html">Avanzado</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p></p>
+    </div>
+
+
+
+    <div id="bottom-footer" class="row centro">
+
+        <!-- copyright -->
+        <div class="col-md-8 col-md-pull-4">
+            <div class="footer-copyright">
+                <span>&copy; Copyright 2020. All Rights Reserved.<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://Aprende.com">AprendeInglés</a></span>
+            </div>
+        </div>
+        <!-- /copyright -->
+
+    </div>
+
+
+   
+    <!-- /Footer -->
+
+</body>
+</html>
